@@ -1,0 +1,6 @@
+interface:
+  display_name: "Навигатор проблем фичи"
+  short_description: "Таблица симптомов и трассы диагностики по коду"
+  default_prompt: "Используй $backend-feature-troubleshooting: выдели основные возможные проблемы готовой фичи и составь таблицу «Проблема — трасса — код» с пошаговыми проверками."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Карта архитектуры фичи"
+  short_description: "Схема фичи, основные сценарии и точки входа в код"
+  default_prompt: "Используй $backend-feature-architecture: составь по текущему коду карту архитектуры реализованной фичи с текстовой схемой, основными методами и ссылками."
+policy:
+  allow_implicit_invocation: true
